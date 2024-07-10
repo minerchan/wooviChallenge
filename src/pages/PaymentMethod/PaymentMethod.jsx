@@ -2,7 +2,6 @@ import Logo from "../../components/Logo/Logo"
 import PriceCard from "../../components/PriceCard/PriceCard"
 import Subtitle from "../../components/Subtitle/Subtitle"
 import "./PaymentMethod.scss";
-import { useNavigate, useLocation } from 'react-router-dom';
 
 function PaymentMethod() {
 
