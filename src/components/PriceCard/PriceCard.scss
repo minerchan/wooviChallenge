@@ -1,0 +1,88 @@
+@import '../../variables.scss';
+.PriceCard{
+    margin: 0 auto;
+    position: relative;
+    padding: 2.4rem 1.6rem;
+    border: 2px solid #E5E5E5;
+    border-radius: 1rem;
+    width: 42.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    .priceFlex{
+        h3{
+            font-family: $font;
+            font-size: 2.4rem;
+            line-height: 3.274rem;
+            font-weight: 800;
+        }
+        .price{
+            font-weight: 600;
+        }
+        .total{
+            font-family: $font;
+            color: #AFAFAF;
+            font-size: 1.6rem;
+            font-weight: 600;
+            line-height: 2.182rem;
+            text-align: left;
+
+        }
+        .cashback{
+            color: #03D69D;
+            font-family: $font;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+        }
+        .percentual{
+            font-weight: 800;
+        }
+    }
+    
+    input{
+        position: absolute;
+        left: 95%;
+        top: 1.6rem;
+        transform: translate(-100%, 0);
+        width: 2.6rem;
+        height: 2.6rem;
+        border: .2rem solid #E5E5E5;
+    }
+    .discount{
+        display: flex;
+        height: 3.3rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        padding: .8rem .4rem;
+        p{
+            font-family: $font;
+            color: #FFF;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 2rem;
+        }
+        span{
+            margin-left: .4rem;
+            font-weight: 800;
+        }
+    }
+
+    .tag{
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        transform: translateY(-50%);
+        border-radius: 10rem;
+        background-color: #E5E5E5;
+        height: 2.7rem;
+        font-family: $font;
+        font-size: 1.8rem;
+        font-weight: 800;
+        line-height: 2.4rem;
+        text-align: left;
+        padding: .4rem 1.6rem;
+
+    }
+}
