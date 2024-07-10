@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.Cet{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.6rem;
+    border-bottom: 2px solid #E5E5E5;
+    h4{
+        font-family: $font;
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.91rem;
+        text-align: left;
+        
+    }
+    p{
+        font-family: $font;
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 2.455rem;
+        text-align: left;
+        
+    }
+}

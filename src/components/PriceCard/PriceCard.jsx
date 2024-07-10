@@ -1,7 +1,10 @@
-import './PriceCard.scss'
-import discountImg from '../../assets/discount.png'
+import './PriceCard.scss';
+import discountImg from '../../assets/discount.png';
+import { useNavigate } from 'react-router-dom';
 
 function PriceCard({discount, tag, span, cashback, price, spanPrice, total, marginTop, borderRadius}) {
+  const navigate = useNavigate();
+  
   return (
     <div className='PriceCard' style={{marginTop: marginTop ? marginTop : '0', borderRadius: borderRadius}}>
         <div className='priceFlex'>
@@ -13,7 +16,7 @@ function PriceCard({discount, tag, span, cashback, price, spanPrice, total, marg
             <p><span>{span}</span> {discount}</p> 
         </div> : null}
         
-        <input type="radio"/>
+        <input type="radio" onClick={()=> navigate('/payment')}/>
         {tag ? <div className='tag'>{tag}</div> : null}
         
     </div>

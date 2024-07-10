@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+.FlexPrazo{
+    display: flex;
+    flex-direction: column;
+    max-width: 15.4rem;
+
+    p{
+        font-family: $font;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.182rem;
+        text-align: center;
+        color: #4D4D4D;
+        opacity: .6;
+
+    }
+    span{
+        font-family: $font;
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: 2.182rem;
+        text-align: center;
+
+    }
+}

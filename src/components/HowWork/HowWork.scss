@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+.HowWork{
+    width: 100%;
+    display: flex;
+    font-family: $font;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 2.182rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+    padding-bottom: 1.6rem;
+    img{
+        width: 1.2rem;
+        height: .7rem;
+        cursor: pointer;
+    }
+}

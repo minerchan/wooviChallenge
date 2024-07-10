@@ -1,8 +1,8 @@
 import './Subtitle.scss';
 
-function Subtitle({text}) {
+function Subtitle({text, maxWidth}) {
   return (
-    <h2 className='Subtitle'>{text}</h2>
+    <h2 className='Subtitle' style={{maxWidth: maxWidth}}>{text}</h2>
   )
 }
 
